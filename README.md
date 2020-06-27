@@ -1,5 +1,5 @@
 # Timber
-A TreeCapitator plugin that intergrates with mcMMO and Jobs Reborn
+A TreeCapitator plugin that integrates with mcMMO and Jobs Reborn
 
 - [X] Fell full tree
 - [X] mcMMO Integration
