@@ -1,13 +1,11 @@
 package com.untamemadman.plugins.mcmmoandjobsreborn_timber;
 
 import org.bukkit.Material;
-import org.bukkit.Server;
 import org.bukkit.plugin.PluginManager;
 import org.bukkit.plugin.java.JavaPlugin;
 
 import java.util.Arrays;
 import java.util.List;
-import java.util.logging.Logger;
 
 public class mcMMOandJobsReborn_Timber extends JavaPlugin
 {
@@ -86,12 +84,12 @@ public class mcMMOandJobsReborn_Timber extends JavaPlugin
             Enabled_mcMMO = true;
         }
 
-        // Check for JobsReborn
-        if(pm.getPlugin("Jobs") != null)
-        {
-            getLogger().info("Jobs enabled");
-            Enabled_Jobs = true;
-        }
+//        // Check for JobsReborn
+//        if(pm.getPlugin("Jobs") != null)
+//        {
+//            getLogger().info("Jobs enabled");
+//            Enabled_Jobs = true;
+//        }
 
         // Register Events
         pm.registerEvents(new Events(), this);
