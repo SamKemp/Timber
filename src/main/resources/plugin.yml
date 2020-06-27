@@ -1,0 +1,8 @@
+name: Timber
+author: untamemadman
+version: 1.0
+main: com.untamemadman.plugins.mcmmoandjobsreborn_timber.mcMMOandJobsReborn_Timber
+prefix: Timber
+api-version: 1.15
+
+softdepend: [mcMMO, Jobs]
